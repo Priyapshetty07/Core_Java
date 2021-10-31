@@ -5,7 +5,7 @@ public class BluetoothDTO {
 	private String color;
 	private int price;
 	private int hZ;
-	
+
 	public BluetoothDTO() {
 		System.out.println("INVOKED BLUETOOTH");
 	}
@@ -49,7 +49,5 @@ public class BluetoothDTO {
 	public void sethZ(int hZ) {
 		this.hZ = hZ;
 	}
-	
-	
 
 }
