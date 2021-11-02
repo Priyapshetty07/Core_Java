@@ -18,8 +18,8 @@ public class VehicleDAO {
 			count++;
 			System.out.println("Added charger to Container :".concat(String.valueOf(this.count)).concat(" Company:")
 					.concat(vehicle.getCompany()).concat(" ").concat(" Color:")
-					.concat(String.valueOf(vehicle.getColor()).concat(" ").concat(" Number:")
-							.concat(String.valueOf(vehicle.getNumber())).concat(" ").concat(" Type:")
+					.concat(String.valueOf(vehicle.getColor()).concat(" ")
+							.concat(" Number:").concat(String.valueOf(vehicle.getNumber())).concat(" ").concat(" Type:")
 							.concat(String.valueOf(vehicle.isType())).concat(" ").concat(" Pirce:")
 							.concat(String.valueOf(vehicle.getPirce()))));
 
