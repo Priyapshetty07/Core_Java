@@ -103,7 +103,6 @@ public class FoodDAO {
 						System.out.println("Name or Price not matched ");
 					}
 				}
-
 			}
 		} else {
 			System.err.println("Food cannot be null and Price should be greater than zero ");
