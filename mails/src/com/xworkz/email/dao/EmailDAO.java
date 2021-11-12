@@ -24,25 +24,25 @@ public class EmailDAO {
 		}
 	}
 
-	public void save(GmailEmailDTO gmailEmailDTO) {
-		if (gmailEmailDTO != null && this.count < this.mails.length) {
-			this.mails[count] = gmailEmailDTO;
-			System.out.println("GmailEmail DTO is saved");
-			this.count++;
-		} else {
-			System.err.println("GmailEmail  is full");
-		}
-	}
-
-	public void save(OutLookEmailDTO outLookEmailDTO) {
-		if (outLookEmailDTO != null && this.count < this.mails.length) {
-			this.mails[count] = outLookEmailDTO;
-			System.out.println("Outlookemail DTO is saved");
-			this.count++;
-		} else {
-			System.err.println("OutLookEmail  is full");
-		}
-	}
+//	public void save(GmailEmailDTO gmailEmailDTO) {
+//		if (gmailEmailDTO != null && this.count < this.mails.length) {
+//			this.mails[count] = gmailEmailDTO;
+//			System.out.println("GmailEmail DTO is saved");
+//			this.count++;
+//		} else {
+//			System.err.println("GmailEmail  is full");
+//		}
+//	}
+//
+//	public void save(OutLookEmailDTO outLookEmailDTO) {
+//		if (outLookEmailDTO != null && this.count < this.mails.length) {
+//			this.mails[count] = outLookEmailDTO;
+//			System.out.println("Outlookemail DTO is saved");
+//			this.count++;
+//		} else {
+//			System.err.println("OutLookEmail  is full");
+//		}
+//	}
 
 	public void displayDetailsEmailDTO() {
 
