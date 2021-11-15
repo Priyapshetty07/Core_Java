@@ -35,7 +35,7 @@ public class EmailDAO {
 //	}
 //
 //	public void save(OutLookEmailDTO outLookEmailDTO) {
-//		if (outLookEmailDTO != null && this.count < this.mails.length) {
+//		if (outLookEmailDTO != null && this.count < this.mails.length) {6
 //			this.mails[count] = outLookEmailDTO;
 //			System.out.println("Outlookemail DTO is saved");
 //			this.count++;
