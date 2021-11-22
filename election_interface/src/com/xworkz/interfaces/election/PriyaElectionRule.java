@@ -5,8 +5,7 @@ public class PriyaElectionRule implements ElectionRule {
 	@Override
 	public int validAge() {
 		System.out.println("invoked VALID AGE method");
-
-		return 23;
+        return 23;
 	}
 
 	@Override
